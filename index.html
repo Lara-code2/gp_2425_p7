@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="65">
+    <title>poema</title>
+    <head>
+        <title>Vicent Andrés Estellés</title>
+        <style>
+            body {
+                background-color: #000;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+               
+            }
+            .contenedor {
+                background-color: #ffffff;
+                width: 500px;
+                padding: 15px;
+                box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.5);
+                position: relative;
+            }
+            .contenedor::before {
+            
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 100%;
+                height: 100%;
+                background-color: #f0f0f0;
+                
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #000;
+                padding-bottom: 8px;
+                margin-bottom: 10px;
+            }
+            header .titulo {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            header .subtitulo {
+                font-size: 10px;
+                color: #666;
+            }
+            header h3 {
+                font-size: 90px;
+                font-weight: bold;
+                left: 10px;
+            }
+            .copy {
+                font-size: 11px;
+                line-height: 0.70;
+            }
+
+           /*El efecto chulin */
+            .copy p {
+                display: block;
+                padding: 3px ;
+                transition: background-color 0.5s, color 0.5s;
+            }
+            .copy p:hover {
+                background-color: #000;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="header">
+                <div>
+                    <div class="titulo">VICENT ANDRÉS ESTELLÉS</div>
+                    <div class="Subtitulo">OCTOBER / VOL 5</div>
+                </div>
+                <h3 class="numero">5</h3>
+            </div>
+            <div class="copy">
+                <p>Si com guitarra et prenia dòcil,</p>
+               <p>nua, damunt els castigats genolls,</p>
+                <p>i de tu extreia adelerades músiques,</p>
+                <p>fils seclurs d'imperceptibles pètals,</p><br>
+                <p>i t'agonrsava com filleta, l'ama</p>
+                <p>del corral el carrer i d'altres béns,</p>
+                <p>i ho agraïes, com a deferència,</p>
+                <p>i li posaves el mugró a la boca</p><br>
+                <p>que ell et besava i et llepava, digne,</p>
+
+                <p>saviament, amb destructiu plaer</p>
+                <p>que arribava a les arrels secretes</p><br>
+                <p>de la mateixa lluminosa música</p>
+                <p>i es desfeia com terrós de sucre</p>
+                <p>en arribar-te a les dentetes, dolces.</p>
+            </div>
+        </div>
+    </body>
+    </html>
